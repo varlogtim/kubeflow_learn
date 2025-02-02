@@ -1,4 +1,4 @@
-from tools.get_kfp_client import get_kfp_client_from_env
+from tools.kfp_auth import get_kfp_client_from_env
 
 
 client = get_kfp_client_from_env()
